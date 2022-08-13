@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NT Store - Cửa Hàng Thời Trang Giá Rẻ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/product.css">
+    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/zoom-hover.css">
+    <link rel="stylesheet" href="./assets/css/zoom-click.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="web">
+        <header id="header">
+            <div class="header__navbar">
+                <div class="grid">
+                    <!-- Header Contact -->
+                    <nav class="header__navbar-contact">
+                        <div class="header__navbar-contact-support-over">
+                            <span class="header__navbar-contact-support">HỖ TRỢ CHĂM SÓC KHÁCH HÀNG - </span>
+                            <span class="header__navbar-contact-support">0348590300 NHÉ !</span>
+                        </div>
+                        <ul class="header__navbar-contact-list">
+                            <li class="header__navbar-contact-item">
+                                <a href="https://www.facebook.com/akira362/" class="header__navbar-contact-item-link">
+                                    <i class="header__navbar-contact-icon fab fa-facebook-f"></i>
+                                </a>
+                                <div class="header__navbar-contact-item-remind header__navbar-contact-item-remind--active">
+                                    <span class="header__navbar-contact-item-label">Follow on Facebook</span>
+                                </div>
+                            </li>
+                            <li class="header__navbar-contact-item">
+                                <a href="https://www.instagram.com/akiraakira8284/" class="header__navbar-contact-item-link">
+                                    <i class="header__navbar-contact-icon fab fa-instagram"></i>
+                                </a>
+                                <div class="header__navbar-contact-item-remind header__navbar-contact-item-remind--active">
+                                    <span class="header__navbar-contact-item-label">Follow on Instagram</span>
+                                </div>
+                            </li>
+                            <li class="header__navbar-contact-item">
+                                <a href="#" class="header__navbar-contact-item-link">
+                                    <i class="header__navbar-contact-icon fab fa-twitter"></i>
+                                </a>
+                                <div class="header__navbar-contact-item-remind header__navbar-contact-item-remind--active">
+                                    <span class="header__navbar-contact-item-label">Follow on twitter</span>
+                                </div>
+                            </li>
+                            <li class="header__navbar-contact-item">
+                                <a href="#" class="header__navbar-contact-item-link">
+                                    <i class="header__navbar-contact-icon far fa-envelope"></i>
+                                </a>
+                                <div class="header__navbar-contact-item-remind header__navbar-contact-item-remind--active">
+                                    <span class="header__navbar-contact-item-label">Send us an email</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Header Search -->
+            <div class="grid line-seperate">
+                <div class="header__with-search">
+                    <button class="mobile-menu">
+                        <i class="mobile-menu-icon fas fa-bars"></i> 
+                        <span>MENU</span>
+                    </button>
+                    <div class="header__with-search-logo">
+                        <a href="#" class="header__with-search-logo-link">
+                            <img src="https://ntstore.vn/wp-content/uploads/2021/07/Screen-Shot-2021-07-10-at-23.41.17.png" alt="NT Store - Cửa Hàng Thời Trang Giá Rẻ" class="header__with-search-img">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm mọi thứ tại đây...">
+                            <div class="header__search-suggest">
+                                <ul class="header__search-suggest-list">
+                                    <li class="header__search-suggest-item">
+                                        <a href="#" class="header__search-suggest-item-label">Áo thun</a>
+                                    </li>
+                                    <li class="header__search-suggest-item">
+                                        <a href="#" class="header__search-suggest-item-label">Áo sơ mi</a>
+                                    </li>
+                                    <li class="header__search-suggest-item">
+                                        <a href="#" class="header__search-suggest-item-label">Áo khoác</a>
+                                    </li>
+                                    <li class="header__search-suggest-item">
+                                        <a href="#" class="header__search-suggest-item-label">Balo</a>
+                                    </li>
+                                    <li class="header__search-suggest-item">
+                                        <a href="#" class="header__search-suggest-item-label">Thẻ thông minh</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-submit">
+                            <i class="header__search-submit-icon fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                        <button class="header__cart-show">
+                            <span class="header__cart-price-sum">100.000</span>
+                            <span class="header__cart-price-currency">đ</span>
+                            <div class="header__cart-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <!-- header__cart--have-cart : Có đồ trong giỏ hàng không -->
+                            <div class="header__cart-qnt-cart header__cart--have-cart">
+                                <span class="header__cart-qnt-cart-num">20</span>
+                            </div>
+                        </button>
+                        <div class="header__cart-list">
+                            <!-- header__cart--have-cart : Có đồ trong giỏ hàng không -->
+                            <ul class="header__cart-list-item header__cart--have-cart">
+                                <li class="header__cart-item">
+                                    <a href="#" class="header__cart-logo">
+                                        <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                                    </a>
+                                    <div class="header__cart-info">
+                                        <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                                        <div class="product-price-wrap">
+                                            <span class="product-qnt">1</span>
+                                            <span class="product-mul">x</span>
+                                            <span class="product-price">100.000</span>
+                                            <span class="product-price-currency no-space">đ</span>
+                                        </div>
+                                    </div>
+                                    <a class="header__cart-cancel" href="#">
+                                        <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                                    </a>
+                                </li>
+                                <li class="header__cart-item">
+                                    <a href="#" class="header__cart-logo">
+                                        <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                                    </a>
+                                    <div class="header__cart-info">
+                                        <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                                        <div class="product-price-wrap">
+                                            <span class="product-qnt">1</span>
+                                            <span class="product-mul">x</span>
+                                            <span class="product-price">100.000</span>
+                                            <span class="product-price-currency no-space">đ</span>
+                                        </div>
+                                    </div>
+                                    <a class="header__cart-cancel" href="#">
+                                        <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                                    </a>
+                                </li>
+                                <li class="header__cart-item">
+                                    <a href="#" class="header__cart-logo">
+                                        <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                                    </a>
+                                    <div class="header__cart-info">
+                                        <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                                        <div class="product-price-wrap">
+                                            <span class="product-qnt">1</span>
+                                            <span class="product-mul">x</span>
+                                            <span class="product-price">100.000</span>
+                                            <span class="product-price-currency no-space">đ</span>
+                                        </div>
+                                    </div>
+                                    <a class="header__cart-cancel" href="#">
+                                        <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                                    </a>
+                                </li>
+                                <div class="header__cart-subtotal">
+                                    <span class="subtotal__label">Subtotal:</span>
+                                    <div class="subtotal__prices">
+                                        <span class="subtotal__prices-price">100.000</span>
+                                        <span class="subtotal__prices-currency no-space">đ</span>
+                                    </div>
+                                </div>
+                                <div class="header__cart-option">
+                                    <div class="header__cart-btn header__cart-view-cart">
+                                        <span class="header__cart-view-cart-label">view cart</span>
+                                    </div>
+                                    <div class="header__cart-btn header__cart-check-out">
+                                        <span class="header__cart-check-out-label">checkout</span>
+                                    </div>
+                                </div>
+                            </ul>
+                            <div class="header__cart-no-cart">
+                                <span>Không có gì trong giỏ hàng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Control -->
+            <div class="header__control">
+                <div class="grid">
+                    <div class="header__control--flex">
+                        <div class="header__control-link">
+                            <a href="#" class="header__control-label header__control-home-page header__control--active">Trang chủ</a>
+                            <a href="#" class="header__control-label header__control-t-shirt">Áo thun</a>
+                            <a href="#" class="header__control-label header__control-shirt">Áo sơ mi</a>
+                            <a href="#" class="header__control-label header__control-jacket">Áo khoác</a>
+                            <a href="#" class="header__control-label header__control-home-page">Balo</a>
+                            <a href="#" class="header__control-label header__control-home-page">Thẻ thông minh</a>
+                        </div>
+                        <div class="header__control-contact">
+                            <img src="./assets/img/contact/contact.png" alt="" class="header__control-contact-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Header-->
+            <div class="mobile__header">
+                <ul class="mobile__header-list">
+                    <li class="mobile__header-item">
+                        <input type="text" class="mobile__header-input" placeholder="Tìm mọi thứ tại đây...">
+                        <button class="mobile__header-submit">
+                            <i class="mobile__header-submit-icon fas fa-search"></i>
+                        </button>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">TRANG CHỦ</a>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">ÁO THUN</a>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">ÁO SƠ MI</a>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">ÁO KHOÁC</a>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">BALO</a>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">THẺ THÔNG MINH</a>
+                    </li>
+                    <li class="mobile__header-item">
+                        <a href="">ĐĂNG NHẬP</a>
+                    </li>
+                </ul>
+                <div class="mobile__header-sub-background"></div>
+            </div>
+            <!-- Mobile Cart-->
+            <div class="mobile__cart">
+                <!-- header__cart--have-cart : Có đồ trong giỏ hàng không -->
+                <div class="mobile__cart-heading">
+                    <h3 class="mobile__cart-heading-label">CART</h3>
+                    <div class="mobile__cart-heading-seperate"></div>
+                </div>
+                <ul class="mobile__cart-list header__cart--have-cart">
+                    <li class="header__cart-item">
+                        <a href="#" class="header__cart-logo">
+                            <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                        </a>
+                        <div class="header__cart-info">
+                            <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                            <div class="product-price-wrap">
+                                <span class="product-qnt">1</span>
+                                <span class="product-mul">x</span>
+                                <span class="product-price">100.000</span>
+                                <span class="product-price-currency no-space">đ</span>
+                            </div>
+                        </div>
+                        <a class="header__cart-cancel" href="#">
+                            <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                        </a>
+                    </li>
+                    <li class="header__cart-item">
+                        <a href="#" class="header__cart-logo">
+                            <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                        </a>
+                        <div class="header__cart-info">
+                            <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                            <div class="product-price-wrap">
+                                <span class="product-qnt">1</span>
+                                <span class="product-mul">x</span>
+                                <span class="product-price">100.000</span>
+                                <span class="product-price-currency no-space">đ</span>
+                            </div>
+                        </div>
+                        <a class="header__cart-cancel" href="#">
+                            <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                        </a>
+                    </li>
+                    <li class="header__cart-item">
+                        <a href="#" class="header__cart-logo">
+                            <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                        </a>
+                        <div class="header__cart-info">
+                            <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                            <div class="product-price-wrap">
+                                <span class="product-qnt">1</span>
+                                <span class="product-mul">x</span>
+                                <span class="product-price">100.000</span>
+                                <span class="product-price-currency no-space">đ</span>
+                            </div>
+                        </div>
+                        <a class="header__cart-cancel" href="#">
+                            <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                        </a>
+                    </li>
+                    <li class="header__cart-item">
+                        <a href="#" class="header__cart-logo">
+                            <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                        </a>
+                        <div class="header__cart-info">
+                            <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                            <div class="product-price-wrap">
+                                <span class="product-qnt">1</span>
+                                <span class="product-mul">x</span>
+                                <span class="product-price">100.000</span>
+                                <span class="product-price-currency no-space">đ</span>
+                            </div>
+                        </div>
+                        <a class="header__cart-cancel" href="#">
+                            <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                        </a>
+                    </li>
+                    <li class="header__cart-item">
+                        <a href="#" class="header__cart-logo">
+                            <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                        </a>
+                        <div class="header__cart-info">
+                            <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                            <div class="product-price-wrap">
+                                <span class="product-qnt">1</span>
+                                <span class="product-mul">x</span>
+                                <span class="product-price">100.000</span>
+                                <span class="product-price-currency no-space">đ</span>
+                            </div>
+                        </div>
+                        <a class="header__cart-cancel" href="#">
+                            <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                        </a>
+                    </li>
+                    <li class="header__cart-item">
+                        <a href="#" class="header__cart-logo">
+                            <img class="header__cart-img" src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="">
+                        </a>
+                        <div class="header__cart-info">
+                            <a class="header__cart-title" href="#">Áo Thun XXME THÊU LOGO Mymo</a>
+                            <div class="product-price-wrap">
+                                <span class="product-qnt">1</span>
+                                <span class="product-mul">x</span>
+                                <span class="product-price">100.000</span>
+                                <span class="product-price-currency no-space">đ</span>
+                            </div>
+                        </div>
+                        <a class="header__cart-cancel" href="#">
+                            <i class="header__cart-cancel-icon far fa-times-circle"></i>
+                        </a>
+                    </li>
+                    <div class="header__cart-subtotal">
+                        <span class="subtotal__label">Subtotal:</span>
+                        <div class="subtotal__prices">
+                            <span class="subtotal__prices-price">100.000</span>
+                            <span class="subtotal__prices-currency no-space">đ</span>
+                        </div>
+                    </div>
+                    <div class="header__cart-option">
+                        <div class="header__cart-btn header__cart-view-cart">
+                            <span class="header__cart-view-cart-label">view cart</span>
+                        </div>
+                        <div class="header__cart-btn header__cart-check-out">
+                            <span class="header__cart-check-out-label">checkout</span>
+                        </div>
+                    </div>
+                </ul>
+                <div class="header__cart-no-cart--mobile">
+                    <div class="mobile__cart-heading">
+                        <h3 class="mobile__cart-heading-label">CART</h3>
+                    </div>
+                    <div class="mobile__cart-heading-seperate"></div>
+                    <div class="header__cart-no-cart">
+                        <span>Không có gì trong giỏ hàng</span>
+                    </div>
+                </div>
+                <div class="mobile__cart-sub-background"></div>
+            </div>
+            <!-- Button Close -->
+            <button class="closeBtn">
+                <i class="closeBtn-icon fas fa-times"></i>
+            </button>
+            <!-- Go To Top -->
+            <a id="go-to-top" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+        </header>
+        <div id="container">
+            <div class="grid">
+                <div class="distance-56">
+                    <div class="products__heading">
+                        <div class="products__heading-links">
+                            <div class="products__heading-link-current">
+                                <a href="#" class="products__heading-link-current-item">Home</a>
+                                <span>/</span>
+                                <a href="#" class="products__heading-link-current-item products__heading-link-current--active">Áo Thun</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-1">
+                        <div class="product__info-main">
+                            <div class="grid__row">
+                                <div class="grid__column-2">
+                                    <div class="product__info-main-images">
+                                        <div class="product__info-main-image">
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg" alt="">
+                                            </div>
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/ao-thun-cracken-bad-habbit/1-8-600x595.jpeg" alt="">
+                                            </div>
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/balo-degrey-moi-do/2-600x1034.jpeg" alt="">
+                                            </div>
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/bobui-drunk/1-17.jpeg" alt="">
+                                            </div>
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/balo-degrey-moi-do/2-600x1034.jpeg" alt="">
+                                            </div>
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg" alt="">
+                                            </div>
+                                            <div class="product__info-main-image-large">
+                                                <img class="product__info-main-image-show" src="./assets/img/balo-degrey-moi-do/2-600x1034.jpeg" alt="">
+                                            </div>
+                                            <button class="product__info-main-image-btn-slide-left">
+                                                <i class="product__info-main-image-sub-icon fas fa-chevron-left"></i>
+                                            </button>
+                                            <button class="product__info-main-image-btn-slide-right">
+                                                <i class="product__info-main-image-sub-icon fas fa-chevron-right"></i>
+                                            </button>
+                                        </div>
+                                        <div class="product__info-main-image-sub">
+                                            <div class="product__info-main-image-sub-list">
+                                                <div class="product__info-main-image-sub-item product__info-main-image-sub-item--active">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg" alt="">
+                                                </div>
+                                                <div class="product__info-main-image-sub-item">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/ao-thun-cracken-bad-habbit/1-8-600x595.jpeg" alt="">
+                                                </div>
+                                                <div class="product__info-main-image-sub-item">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/balo-degrey-moi-do/2-600x1034.jpeg" alt="">
+                                                </div>
+                                                <div class="product__info-main-image-sub-item">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/bobui-drunk/1-17.jpeg" alt="">
+                                                </div>
+                                                <div class="product__info-main-image-sub-item">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/balo-degrey-moi-do/2-600x1034.jpeg" alt="">
+                                                </div>
+                                                <div class="product__info-main-image-sub-item">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/bobui-drunk/1-17.jpeg" alt="">
+                                                </div>
+                                                <div class="product__info-main-image-sub-item">
+                                                    <img class="product__info-main-image-sub-item-img" src="./assets/img/balo-degrey-moi-do/2-600x1034.jpeg" alt="">
+                                                </div>
+                                            </div>
+                                            <button class="product__info-main-image-btn-left">
+                                                <i class="product__info-main-image-sub-icon fas fa-chevron-left"></i>
+                                            </button>
+                                            <button class="product__info-main-image-btn-right">
+                                                <i class="product__info-main-image-sub-icon fas fa-chevron-right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2">
+                                    <div class="product__info-main-info">
+                                        <h3 class="product__info-main-info-heading">Áo Thun BOBUI 2TT</h3>
+                                        <div class="product__info-main-item-star distance-16">
+                                            <i class="product__info-main-item-star--full fas fa-star"></i>
+                                            <i class="product__info-main-item-star--full fas fa-star"></i>
+                                            <i class="product__info-main-item-star--full fas fa-star"></i>
+                                            <i class="product__info-main-item-star--half fas fa-star-half-alt"></i>
+                                            <i class="product__info-main-item-star--none far fa-star"></i>
+                                        </div>
+                                        <div class="product-price-wrap product-price-wrap--product distance-16">
+                                            <span class="product-price product-price--product">100.000</span>
+                                            <span class="product-price-currency product-price-currency--product no-space">đ</span>
+                                        </div>
+                                        <div class="product__info-main-sold-live distance-16">
+                                            <div class="product__info-main-sold">
+                                                <div class="product__info-main-sold-cover">
+                                                    <i class="product__info-main-sold-icon fas fa-shopping-cart"></i>Đã bán:
+                                                    <div class="product__info-main-sold-qnt">46222</div>
+                                                </div>
+                                                Sản phẩm trong hôm nay
+                                            </div>
+                                            <div class="product__info-main-live">
+                                                <div class="product__info-main-live-qnt">782222</div>Người đang xem sản phẩm này
+                                            </div>
+                                        </div>
+                                        <div class="product__info-main-type distance-16">
+                                            <div class="product__info-main-type">
+                                                <div class="product__info-main-type-heading">
+                                                    <div class="product__info-main-type-choose">
+                                                        <span>Color</span>
+                                                        <span class="product__info-main-color-current"></span>
+                                                    </div>
+                                                    <div class="product__info-main-size-clear">
+                                                        <button class="btn-clear">CLEAR</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product__info-main-type-list">
+                                                    <ul class="product__info-main-type-items">
+                                                        <button class="btn-32 product__info-main-color-item"></button>
+                                                        <button class="btn-32 product__info-main-color-item"></button>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product__info-main-type">
+                                                <div class="product__info-main-type-heading">
+                                                    <div class="product__info-main-type-choose">
+                                                        <span>Size</span>
+                                                        <span class="product__info-main-size-current"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="product__info-main-type-list">
+                                                    <ul class="product__info-main-type-items">
+                                                        <button class="btn-32 product__info-main-size-item">S</button>
+                                                        <button class="btn-32 product__info-main-size-item">M</button>
+                                                        <button class="btn-32 product__info-main-size-item">L</button>
+                                                        <button class="btn-32 product__info-main-size-item">XL</button>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product__info-main-quantily">
+                                                <button class="product__info-main-quantily-sub">-</button>
+                                                <input type="number" inputmode="numeric" min="1" value="1" id="quantily-input" class="quantily-value">
+                                                <button class="product__info-main-quantily-sum ">+</button>
+                                            </div>
+                                            <div class="product__info-main-add-to-cart">
+                                                <button class="btn-sharp product__info-main-add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__info-body distance-32">
+                            <div class="product__info-title close">
+                                <div class="product__info-body-heading">
+                                    <i class="product__info-body-heading-icon fas fa-chevron-up"></i>
+                                    <div class="product__info-body-heading-label">Description</div>
+                                </div>
+                                <div class="product__info-description-body">
+                                    <span>👍 SIZE : M L XL</span>
+                                    <span>🔖 FULLTAG CHÍNH HÃNG</span>
+                                    <span>🛡 Bảo hành 1 ĐỔI 1 trong 14 ngày</span>
+                                    <span>💯 Cam kết</span>
+                                    <span>👉 Hàng chuẩn Local Brand, giống Real 100%</span>
+                                    <span>👉 Chất liệu dày dặn - đường may tỉ mỉ - hình in sắc nét chuẩn thương hiệu</span>
+                                    <span>👉 Form chuẩn Local Brand</span>
+                                </div>
+                            </div>
+                            <div class="product__info-title close">
+                                <div class="product__info-body-heading">
+                                    <i class="product__info-body-heading-icon fas fa-chevron-up"></i>
+                                    <div class="product__info-body-heading-label">Additional information</div>
+                                </div>
+                                <div class="product__info-description-body">
+                                    <table class="product__info-description-table">
+                                        <tr class="product__info-description-item">
+                                            <th>MÀU</th>
+                                            <td>Hồng, Xanh Da Trời</td>
+                                        </tr>
+                                        <tr class="product__info-description-item">
+                                            <th>SIZE</th>
+                                            <td>S, M, L, XL</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="product__info-title close">
+                                <div class="product__info-body-heading">
+                                    <i class="product__info-body-heading-icon fas fa-chevron-up"></i>
+                                    <div class="product__info-body-heading-label">Review</div>
+                                    <div class="product__info-review-heading-comment-qut"></div>
+                                </div>
+                                <div class="product__info-review-body">
+                                    <div class="grid__column-2-3 distance-down-16 grid__full-width--mobile">
+                                        <div class="product__info-review-comment-qnt">
+                                            <span class="product__info-review-qnt">2</span>
+                                            <span class="product__info-review-qnt-label">reviews for</span>
+                                            <span class="product__info-review-qnt-product">Áo Thun BOBUI DRUNK</span>
+                                        </div>
+                                        <div class="product__info-review-comments">
+                                            <div class="product__info-review-comment">
+                                                <div class="product__info-review-comment-image">
+                                                    <img src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="" class="product__info-review-comment-img">
+                                                </div>
+                                                <div class="product__info-review-comment-content">
+                                                    <div class="product__info-review-comment-stars">
+                                                        <i class="fas fa-star product__info-review-comment-star active"></i>
+                                                        <i class="fas fa-star  product__info-review-comment-star active"></i>
+                                                        <i class="fas fa-star product__info-review-comment-star "></i>
+                                                        <i class="fas fa-star product__info-review-comment-star"></i>
+                                                        <i class="fas fa-star product__info-review-comment-star"></i>
+                                                    </div>
+                                                    <div class="product__info-review-comment-info">
+                                                        <div class="product__info-review-comment-name">Tâm Trần</div>
+                                                        <div class="product__info-review-comment-dash">-</div>
+                                                        <div class="product__info-review-comment-date">November 4, 2021</div>
+                                                    </div>
+                                                    <div class="product__info-review-comment-label">Mình thấy đẹp, vải mềm mịn sờ rất thik. Lúc đầu còn đắn đo do chưa mua shop này bao giờ mà lúc nhận được hàng thì ưng ý lắm</div>
+                                                </div>
+                                            </div>
+                                            <div class="product__info-review-comment">
+                                                <div class="product__info-review-comment-image">
+                                                    <img src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="" class="product__info-review-comment-img">
+                                                </div>
+                                                <div class="product__info-review-comment-content">
+                                                    <div class="product__info-review-comment-stars">
+                                                        <i class="fas fa-star product__info-review-comment-star active"></i>
+                                                        <i class="fas fa-star  product__info-review-comment-star active"></i>
+                                                        <i class="fas fa-star product__info-review-comment-star "></i>
+                                                        <i class="fas fa-star product__info-review-comment-star"></i>
+                                                        <i class="fas fa-star product__info-review-comment-star"></i>
+                                                    </div>
+                                                    <div class="product__info-review-comment-info">
+                                                        <div class="product__info-review-comment-name">Tâm Trần</div>
+                                                        <div class="product__info-review-comment-dash">-</div>
+                                                        <div class="product__info-review-comment-date">November 4, 2021</div>
+                                                    </div>
+                                                    <div class="product__info-review-comment-label">Mình thấy đẹp, vải mềm mịn sờ rất thik. Lúc đầu còn đắn đo do chưa mua shop này bao giờ mà lúc nhận được hàng thì ưng ý lắm</div>
+                                                </div>
+                                            </div>
+                                            <div class="product__info-review-comment">
+                                                <div class="product__info-review-comment-image">
+                                                    <img src="./assets/img/xxme-thue-logo-mymo/1-9.jpeg" alt="" class="product__info-review-comment-img">
+                                                </div>
+                                                <div class="product__info-review-comment-content">
+                                                    <div class="product__info-review-comment-stars">
+                                                        <i class="fas fa-star product__info-review-comment-star active"></i>
+                                                        <i class="fas fa-star  product__info-review-comment-star active"></i>
+                                                        <i class="fas fa-star product__info-review-comment-star "></i>
+                                                        <i class="fas fa-star product__info-review-comment-star"></i>
+                                                        <i class="fas fa-star product__info-review-comment-star"></i>
+                                                    </div>
+                                                    <div class="product__info-review-comment-info">
+                                                        <div class="product__info-review-comment-name">Tâm Trần</div>
+                                                        <div class="product__info-review-comment-dash">-</div>
+                                                        <div class="product__info-review-comment-date">November 4, 2021</div>
+                                                    </div>
+                                                    <div class="product__info-review-comment-label">Mình thấy đẹp, vải mềm mịn sờ rất thik. Lúc đầu còn đắn đo do chưa mua shop này bao giờ mà lúc nhận được hàng thì ưng ý lắm</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-3 distance-down-16 grid__full-width--mobile">
+                                        <div class="product__info-review-add">
+                                            <h3 class="product__info-review-add-title">Add a review </h3>
+                                            <div class="product__info-review-add-rate distance-16">
+                                                <h5 class="product__info-review-add-head">Your rating *</h5>
+                                                <div class="product__info-review-add-rate-stars">
+                                                    <i class="product__info-review-add-rate-star fas fa-star active"></i>
+                                                    <i class="product__info-review-add-rate-star fas fa-star"></i>
+                                                    <i class="product__info-review-add-rate-star fas fa-star"></i>
+                                                    <i class="product__info-review-add-rate-star fas fa-star"></i>
+                                                    <i class="product__info-review-add-rate-star fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__info-review-add-comment distance-16">
+                                                <h5 class="product__info-review-add-head">Your review *</h5>
+                                                <!-- <input type="text" class="product__info-review-add-input input-52"> -->
+                                                <textarea class="product__info-review-add-input input-64"></textarea>
+                                            </div>
+                                            <div class="product__info-review-add-name distance-16">
+                                                <h5 class="product__info-review-add-head">Name *</h5>
+                                                <input type="text" class="product__info-review-add-input">
+                                            </div>
+
+                                            <div class="product__info-review-add-mail distance-16">
+                                                <h5 class="product__info-review-add-head">Email *</h5>
+                                                <input type="email" class="product__info-review-add-input">
+                                            </div>
+                                            <div class="product__info-review-add-confirm distance-16">
+                                                <input type="checkbox" class="product__info-review-add-input btn-check">
+                                                <div class="product__info-review-add-confirm-label">Save my name, email, and website in this browser for the next time I comment.</div>
+                                            </div>
+                                            <div class="product__info-review-add-submit distance-16">
+                                                <button class="product__info-review-add-submit-btn">submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="related-products distance-40">
+                        <h5 class="related-products-title">RELATED PRODUCTS</h5>
+                        <div class="related-products-show">
+                            <div class="related-products-list">
+                                <div class="related-products-list-cover">
+                                    <div class="related-products-list-cover-sub grid__row grid_min_full_width">
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="related-products-item grid__column-4">
+                                            <div class="related-product">
+                                                <a href="" class="related-product-link">
+                                                    <div class="product-item-img fix-img-75" style="background-image: url(./assets/img/ao-so-mi-mende-logo-ss2/1-1.jpeg);"></div>
+                                                    <div class="product-info">
+                                                        <h5 class="product-title">Áo Thun BOBUI CHỮ ANGEL Mymo</h5>
+                                                        <div class="product-item-star">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </div>
+                                                        <div class="product-price-wrap">
+                                                            <span class="product-price">100.000</span>
+                                                            <span class="product-price-currency no-space">đ</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="related-products-btn-slide-left">
+                            <i class="related-products-icon fas fa-chevron-left"></i>
+                        </button>
+                            <button class="related-products-btn-slide-right">
+                            <i class="related-products-icon fas fa-chevron-right"></i>
+                        </button>
+                        </div>
+                    </div>
+                    <div class="distance-32"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="distance-56 ">
+        <div class="grid ">
+            <div class="footer__info ">
+                <div class="grid__row ">
+                    <div class="footer__info-contact grid__column-3 footer--tablet ">
+                        <div class="footer__info-items ">
+                            <h3 class="footer__info-title ">LIÊN HỆ</h3>
+                            <div class="line-strong "></div>
+                            <div class="footer__info-item ">
+                                <div class="footer__info-icon-label ">
+                                    <i class="footer__info-icon fas fa-chevron-right "></i>
+                                </div>
+                                <a href="# " class="footer__info-label ">Địa Chỉ: 135B Trần Hưng Đạo Quận 1 TP HCM</a>
+                            </div>
+                            <div class="footer__info-item ">
+                                <div class="footer__info-icon-label ">
+                                    <i class="footer__info-icon fas fa-chevron-right "></i>
+                                </div>
+                                <a href="# " class="footer__info-label ">Email: ntstore.vn.@gmail.com</a>
+                            </div>
+                            <div class="footer__info-item ">
+                                <div class="footer__info-icon-label ">
+                                    <i class="footer__info-icon fas fa-chevron-right "></i>
+                                </div>
+                                <a href="# " class="footer__info-label ">Lúc nào bạn cần chúng tôi đều có mặt</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info-policy grid__column-3 footer--tablet ">
+                        <div class="footer__info-items ">
+                            <h3 class="footer__info-title ">CHÍNH SÁCH - DỊCH VỤ</h3>
+                            <div class="line-strong "></div>
+                            <div class="footer__info-item ">
+                                <a href="# " class="footer__info-label ">Chính sách bảo mật</a>
+                            </div>
+                            <div class="footer__info-item ">
+                                <a href="# " class="footer__info-label ">Chính sách đổi - trả</a>
+                            </div>
+                            <div class="footer__info-item ">
+                                <a href="# " class="footer__info-label ">Chính sách giao hàng</a>
+                            </div>
+                            <div class="footer__info-item ">
+                                <a href="# " class="footer__info-label ">Liên hệ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info-follow grid__column-3 footer--tablet ">
+                        <div class="footer__info-items ">
+                            <h3 class="footer__info-title ">THEO DÕI CHÚNG TÔI</h3>
+                            <div class="line-strong "></div>
+                            <a href=" " class="footer__info-logo ">
+                                <div class="footer__info-img fix-img-half " style="background-image: url(./assets/img/follow-us/follow-us.png); "></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright distance-16 ">Copyright 2022 © <strong>ntstore.vn</strong></div>
+    </div>
+    </div>
+    <div class="modal-zoom-img">
+        <img src="" alt="" class="modal-zoom-img__content">
+    </div>
+    <script src="./assets/js/main.js "></script>
+    <script src="./assets/js/product.js "></script>
+    <script src="./assets/js/zoom-hover.js "></script>
+    <script src="./assets/js/zoom-click.js "></script>
+    <script src="./assets/js/touchscroll.js "></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+
+</html>

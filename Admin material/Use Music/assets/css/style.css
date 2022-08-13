@@ -1,0 +1,106 @@
+.container {
+	width: calc(100% - 105px);
+	padding: 0 48px 24px;
+	background-color: var(--primary);
+	margin-left: auto;
+	transition: 0.3s;
+}
+.user-title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.user-title > .title {
+	font-size: 2.7rem;
+	list-style: 2.7rem;
+	font-weight: 700;
+}
+.user-title > .add {
+	width: 40px;
+	height: 40px;
+	padding: 9px;
+}
+.user-list {
+	width: 100%;
+}
+.user-list-table {
+	width: 100%;
+}
+.user-list-item.user,
+.user-list-item.user {
+	width: 55%;
+}
+.user-list-item.gender,
+.user-list-item.role,
+.user-list-item.status,
+.user-list-item.action {
+	width: 10%;
+}
+.user-list-item {
+	width: 5%;
+}
+
+table {
+	border-spacing: 0px 16px;
+}
+.user-list-title > tr > .user-list-item,
+.user-list-content > tr > .user-list-item {
+	align-items: center;
+	text-align: center;
+	font-size: 1.4rem;
+	padding: 12px;
+}
+.user-list-title > tr > .user-list-item {
+	font-weight: 700;
+}
+.user-list-content > tr > .user-list-item.user > .info-user {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 1.6rem;
+}
+
+.user-list-content > tr > .user-list-item.user > .info-user > .content > .name {
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 3rem;
+}
+.user-list-content
+	> tr
+	> .user-list-item.user
+	> .info-user
+	> .content
+	> .email {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.user-list-content > tr > .user-list-item.user > .info-user > .avatar {
+	width: 40px;
+	height: 40px;
+	padding: 4px;
+	margin-right: 12px;
+}
+
+.user-list-content > tr > .user-list-item.user > .info-user > .avatar:hover {
+	background-color: var(--primary);
+	border-radius: 20px;
+}
+
+.user-list-content > tr > .user-list-item.action > .action {
+	margin: 0 auto;
+}
+.user-list-content > tr > .user-list-item.action > .action > img {
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+}
+.user-list-item.checkbox {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.user-list-item.action {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}

@@ -1,0 +1,43 @@
+.side-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 105px;
+	height: 100%;
+	background-color: var(--white);
+}
+.side-bar > .wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.side-bar > .wrapper > button {
+	height: 62px;
+	width: 72px;
+}
+.side-bar > .wrapper > .open {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 80%;
+}
+.side-bar > .wrapper > button:first-child {
+	cursor: none;
+}
+.side-bar > .wrapper > button:first-child:hover {
+	background-color: transparent;
+}
+.side-bar > .wrapper > button > .content {
+	display: none;
+}
+.side-bar > .wrapper > button > .content.open {
+	display: block;
+}
+.side-bar > .wrapper > button > img {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 20px;
+}
+.side-bar > .wrapper > .active {
+	background-color: var(--primary);
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>React Admin</title>
+		<link rel="stylesheet" href="../assets/css/GlobalStyle.css" />
+		<link rel="stylesheet" href="../assets/fonts/fonts.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="../assets/css/modal.css" />
+		<link rel="stylesheet" href="../assets/css/input.css" />
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="grid__row">
+				<div class="image">
+					<img src="../assets/svg/image_login.svg" alt="Logo Login" />
+				</div>
+				<div class="login">
+					<div class="setting">
+						<button class="setting-btn btn">
+							<img src="../assets/icons/setting.svg" />
+						</button>
+					</div>
+					<div class="login-main">
+						<div class="title">
+							<div class="logo">
+								<img src="../assets/svg/logo.svg" />
+							</div>
+							<span>Sign in</span>
+						</div>
+						<div class="input">
+							<div class="input-site">
+								<input type="text" class="input-text active" value="demo@example.com" onblur="checkInput(this)"/>
+								<label class="title label-input">Email Address *</label>
+							</div>
+							<div class="input-site">
+								<input type="password" class="input-text active" value="1234567789" onblur="checkInput(this)"/>
+								<label class="title label-input">Password *</label>
+							</div>
+						</div>
+						<div class="forgot-password">
+							<a class="link" href="../Forgot/index.html">Forgot password?</a>
+						</div>
+						<a href="../Home/index.html" class="btn btn-full-width blue">Sign in</a >
+						<a href="../register/index.html" class="btn btn-full-width white">Don't have an account? Sign Up!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal">
+			<div class="modal-setting">
+				<div class="title">
+					<span>Setting</span>
+					<button class="btn close-btn">
+						<img src="../assets/icons/close.svg" />
+					</button>
+				</div>
+				<div class="language">
+					<span>Language</span>
+					<div class="language1">
+						<input type="radio" value="English" />
+						<label for="">English</label>
+					</div>
+					<div class="language2">
+						<input type="radio" value="France" />
+						<label for="">France</label>
+					</div>
+				</div>
+				<div class="choose-2">
+					<span>Mode</span>
+					<div class="chooses">
+						<button class="btn">Light</button>
+						<button class="btn dark active">Dark</button>
+					</div>
+				</div>
+				<div class="choose-2">
+					<span>Sidebar</span>
+					<div class="chooses">
+						<button class="btn active">Collapsed</button>
+						<button class="btn">Full</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-cover"></div>
+		<script src="../assets/javascript/modal.js"></script>
+		<script src="../assets/javascript/input.js"></script>
+	</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>React Admin</title>
+		<link rel="stylesheet" href="../assets/css/GlobalStyle.css" />
+		<link rel="stylesheet" href="../assets/fonts/fonts.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="../assets/css/modal.css" />
+		<link rel="stylesheet" href="../assets/css/icon.css" />
+		<link rel="stylesheet" href="../assets/css/sidebar.css" />
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
+	</head>
+
+	<body>
+		<div class="app">
+			<div class="grid__row">
+				<div class="side-bar">
+					<div class="wrapper">
+						<button class="btn btn-full-width white">
+							<img src="../assets/svg/logo.svg" alt="Logo icon" />
+						</button>
+						<button class="btn btn-full-width white active">
+							<img src="../assets/icons/home.svg" alt="Home icon" />
+							<span class="content">Home</span>
+						</button>
+						<button class="btn btn-full-width white">
+							<img src="../assets/icons/mulperson.svg" alt="Multy person icon" />
+							<span class="content">Users</span>
+						</button>
+						<button class="btn btn-full-width white">
+							<img src="../assets/icons/music.svg" alt="Music icon" />
+							<span class="content">Musics</span>
+						</button>
+						<button class="btn btn-full-width white">
+							<img src="../assets/icons/personal.svg" alt="Personal icon" />
+							<span class="content">Tồn lài</span>
+						</button>
+						<button class="btn btn-full-width white setting-btn">
+							<img src="../assets/icons/setting.svg" alt="Setting icon" />
+							<span class="content">Settings</span>
+						</button>
+					</div>
+				</div>
+				<div class="container home">
+					<div class="notify">
+						<div class="icon btn white">
+							<img
+								src="../assets/icons/notify.svg"
+								alt="Notity icon"
+							/>
+						</div>
+						<ul class="notify-list">
+							<button
+								class="notify-item btn btn-full-width white"
+							>
+								<div class="notify-avata icon">
+									<img
+										src="../assets/icons/personal.svg"
+										alt="Notity avata"
+									/>
+								</div>
+								<div class="notify-content">
+									<span>
+										<span class="amount-notify"
+											>John Smith</span
+										>
+										has written a new comment on your
+										profile</span
+									>
+									<span
+										>over
+										<span class="notice-time">1 year</span>
+										ago</span
+									>
+								</div>
+							</button>
+							<button
+								class="notify-item btn btn-full-width white"
+							>
+								<div class="notify-avata icon">
+									<img
+										src="../assets/icons/personal.svg"
+										alt="Notity avata"
+									/>
+								</div>
+								<div class="notify-content">
+									<span
+										>You have
+										<span class="amount-notify">5</span>
+										unread messages</span
+									>
+									<span
+										>over
+										<span class="notice-time">1 year</span>
+										ago</span
+									>
+								</div>
+							</button>
+							<button class="btn btn-full-width gray">
+								See all notification
+							</button>
+						</ul>
+					</div>
+					<div class="grid__row">
+						<div class="grid__column-3">
+							<div class="introduction">
+								<h3>Hi John,</h3>
+								<h4>Welcome back!</h4>
+								<p>
+									This page is designed to give some important
+									information about the application. Let's
+									make someting together!
+								</p>
+								<img src="./assets/image/home.svg" />
+							</div>
+						</div>
+						<div class="grid__column-3">
+							<div class="react">
+								<div class="like box">
+									<div class="wrapper">
+										<img src="../assets/icons/like.svg" />
+										<div class="content">
+											<div class="amount">2,000</div>
+											<div class="title">Likes</div>
+										</div>
+									</div>
+									<img src="../assets/icons/up.svg" />
+								</div>
+								<div class="love box">
+									<div class="wrapper">
+										<img src="../assets/icons/love.svg" />
+										<div class="content">
+											<div class="amount">2,000</div>
+											<div class="title">Love</div>
+										</div>
+									</div>
+									<img src="../assets/icons/right.svg" />
+								</div>
+								<div class="smile box">
+									<div class="wrapper">
+										<img src="../assets/icons/smile.svg" />
+										<div class="content">
+											<div class="amount">2,000</div>
+											<div class="title">Smiles</div>
+										</div>
+									</div>
+									<img src="../assets/icons/down.svg" />
+								</div>
+								<div class="congratulations box">
+									<div class="wrapper">
+										<img src="../assets/icons/star.svg" />
+										<h5>Congratulations John</h5>
+										<p>
+											You have completed 75% of your
+											profile. Your current progress is
+											great.
+										</p>
+										<a
+											href="#"
+											class="btn btn-half-width white"
+											>View profile</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid__column-3">
+							<div class="targets box">
+								<div class="wrapper">
+									<div class="title">Targets</div>
+									<div class="content-wrapper">
+										<div class="content">
+											<span>Views</span>
+											<span>75%</span>
+										</div>
+										<div class="chart">
+											<div
+												class="main-chart bg-blue"
+											></div>
+											<div
+												class="sub-chart bg-blue"
+											></div>
+										</div>
+									</div>
+									<div class="content-wrapper">
+										<div class="content">
+											<span>Followers</span>
+											<span>50%</span>
+										</div>
+										<div class="chart">
+											<div
+												class="main-chart bg-yellow"
+											></div>
+											<div
+												class="sub-chart bg-yellow"
+											></div>
+										</div>
+									</div>
+									<div class="content-wrapper">
+										<div class="content">
+											<span>Income</span>
+											<span>25%</span>
+										</div>
+										<div class="chart">
+											<div
+												class="main-chart bg-red"
+											></div>
+											<div class="sub-chart bg-red"></div>
+										</div>
+									</div>
+									<div class="content-wrapper"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal">
+			<div class="modal-setting">
+				<div class="title">
+					<span>Setting</span>
+					<button class="btn close-btn">
+						<img src="../assets/icons/close.svg" />
+					</button>
+				</div>
+				<div class="language">
+					<span>Language</span>
+					<div class="language1">
+						<input type="radio" value="English" />
+						<label for="">English</label>
+					</div>
+					<div class="language2">
+						<input type="radio" value="France" />
+						<label for="">France</label>
+					</div>
+				</div>
+				<div class="choose-2">
+					<span>Mode</span>
+					<div class="chooses">
+						<button class="btn">Light</button>
+						<button class="btn dark active">Dark</button>
+					</div>
+				</div>
+				<div class="choose-2">
+					<span>Sidebar</span>
+					<div class="chooses">
+						<button class="btn collapsed active">Collapsed</button>
+						<button class="btn full">Full</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-cover"></div>
+		<script src="../assets/javascript/modal.js"></script>
+	</body>
+</html>

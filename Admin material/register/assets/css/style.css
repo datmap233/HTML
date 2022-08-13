@@ -1,0 +1,70 @@
+/* Login */
+.login {
+	width: 100%;
+	padding: 0 24px;
+	min-height: 606px;
+}
+
+/* Setting icon */
+.setting {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	min-height: 104px;
+}
+.setting-btn {
+	width: 48px;
+	height: 48px;
+	padding: 12px;
+	border-radius: 50%;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+/* Input login */
+.login-main {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 32px;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+.login-main > .input {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.login > .input > input {
+	width: 100%;
+}
+
+.forgot-password {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+.login-main > .title,
+.input-site > .title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login-main > .title > .logo,
+.input-site > .title > .logo {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 16px;
+}
+.login-main > .title > span,
+.input-site > .title > span {
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.description {
+	font-size: 1.6rem;
+	line-height: 2rem;
+	margin: 20px 0 16px;
+}

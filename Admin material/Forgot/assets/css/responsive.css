@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+    .image{
+        display: none;
+    }
+    .login{
+        width: 100% !important;
+    }
+}
